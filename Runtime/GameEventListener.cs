@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 namespace Cuebat.Events
 {
+    [AddComponentMenu("Cuebat events/Game Event Listener")]
     public class GameEventListener : MonoBehaviour
     {
         public GameEvent Event;
